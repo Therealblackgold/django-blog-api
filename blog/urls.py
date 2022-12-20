@@ -1,6 +1,7 @@
 from django.urls import path, include
 from .views import BlogViewSet
 from rest_framework.routers import DefaultRouter
+from . import views
 
 
 router = DefaultRouter()
@@ -10,5 +11,6 @@ router.register("blogs", BlogViewSet, basename="blogs")
 
 # creating a url pattern
 urlpatterns = [
+    path('', views.homepage, name="home"),
     path('api/', include(router.urls)),
 ]

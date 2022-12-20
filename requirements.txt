@@ -1,13 +1,8 @@
-asgiref==3.5.2
-autopep8==2.0.0
-Django==3.2.16
-django-ckeditor==6.3.2
+asgiref==3.6.0
+Django==4.1.4
+django-ckeditor==6.5.1
 django-cors-headers==3.13.0
 django-js-asset==2.0.0
 djangorestframework==3.14.0
-Pillow==9.3.0
-pycodestyle==2.10.0
-pytz==2022.6
+pytz==2022.7
 sqlparse==0.4.3
-tomli==2.0.1
-typing_extensions==4.4.0

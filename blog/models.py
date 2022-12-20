@@ -9,8 +9,6 @@ class Blog(models.Model):
     body = RichTextField(blank=True, null=True)
     # description = RichTextField(blank=True, null=True)
     date = models.DateField(default=timezone.now)
-    image = models.ImageField(
-        blank=True, null=True, upload_to="files/images")
 
     def __str__(self):
         return self.title
